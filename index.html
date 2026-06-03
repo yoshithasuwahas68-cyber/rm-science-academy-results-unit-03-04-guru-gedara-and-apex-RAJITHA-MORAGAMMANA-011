@@ -199,7 +199,7 @@ let s = students.find(x =>
         document.getElementById("grade").innerText = s.grade;
         document.getElementById("today").innerText = s.today;
         document.getElementById("status").innerHTML =
-            (s.marks >= 35) ? "<span class='pass'>PASS</span>" : "<span class='fail'>FAIL</span>";
+            (s.marks >= 50) ? "<span class='pass'>PASS</span>" : "<span class='fail'>FAIL</span>";
 
     }else{
         alert("Student not found");
